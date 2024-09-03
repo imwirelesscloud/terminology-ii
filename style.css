@@ -362,9 +362,9 @@ Logo in word */
 
 .image1 img {
   top: 1rem;
-    width: 42rem;
-    height: 70rem;
-    left: 10rem;
+    width: 50rem;
+    height: 85rem;
+    left: 5rem;
     position: absolute;
 }
 /* Logo */
@@ -1004,90 +1004,81 @@ border-right: 1px solid silver;
 }
    /* Responsive Design */
 
-/* Phase 1 */
 
-/*@media (max-width: 500px) {
 
+@media (max-width: 1500px) {
+
+  
+}
+
+@media (max-width: 1350px) {
+
+  .heading-author {
+    position: relative;
+    margin-left: 20rem;
+
+  }
+  }
+
+
+@media (max-width: 1150px) {
+  html {
+    font-size: 55%;
+  }
+
+.mcircle {
+  right: 15rem;
+}
+
+.dev {
+  right: 17rem;
+}
+
+.definition {
+  margin-left: 20rem;
+  position: absolute;
+}
+
+.heading-author {
+  margin-left: 20rem;
+  position: absolute;
+}
+
+}
+
+@media (max-width: 900px) {
+
+  .heading-author {
+    position: absolute;
+    margin-left: 20rem;
+  }
+
+}
+
+
+@media (max-width: 700px) {
+  html {
+    font-size: 50%;
+
+  }
+}
+
+@media (max-width: 550px) {
   html {
     font-size: 40%;
   }
 }
 
-@media (max-width: 414px) {
-
+@media (max-width: 400px) {
   html {
-    font-size: 18%;
+    font-size: 35%;
   }
-
-
-.navbar {
-  justify-content: center;
-  width: 100%;
-  padding: 0;
 }
 
-.navbar-link {
-  font-size: 3.2rem;
-}
 
-.logo-w {
-  width: 40rem;
-  font-size: 5rem;
-  top: 10rem;
-  left: 5rem;
-}
 
-.ii {
-  width: 10rem;
-  left: 43rem;
-  top: 10rem;
-  font-size: 5rem;
-}
 
-.v-line-1 {
-  top: 10rem;
-  height: 5.5rem;
-}
 
-.v-line-2 {
-  top: 10rem;
-  height: 5.5rem;
-  left: 49rem;
-}
 
-.la {
-  top: 15rem;
-  font-size: 2.5rem;
-  left: 12rem;
-}
 
-.heading-author {
-  top: 25rem;
-  left: 5rem;
-  font-size: 6rem;
-}
-
-.definition {
-  top: 33rem;
-  left: 5rem;
-  width: 73rem;
-  height: 84rem;
-  font-size: 4.5rem;
-
-}
-
-.rotate_01 {
-  top: 50rem;
-  width: 60rem;
-  height: 60rem;
-  left: 98rem;
-}
-
-.mcircle {
-  top: 45rem;
-  width: 60rem;
-  height: 60rem;
-  left: 81rem;
-  border: solid 2px rgb(8, 145, 243);
-}*/ 
 
