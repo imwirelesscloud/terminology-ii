@@ -258,9 +258,9 @@ Logo in word */
 
 .mcircle {
   position: absolute;
-  width: 50rem;
-  height: 50rem;
-  right: 10.3rem;
+  width: 52rem;
+  height: 52rem;
+  right: 9rem;
   top: 22rem;
   border: solid 5px #0066b2;
   border-radius: 90%;
@@ -271,10 +271,10 @@ Logo in word */
 .rotate_01 {
   display: block;
   position: absolute;
-  top: 23.5rem;
-  right: 10rem;
-  width: 50rem;
-  height: 50rem;
+  top: 24.5rem;
+  right: 10.2rem;
+  width: 49.3rem;
+  height: 49.3rem;
   margin: -15px 0 0 -17rem;
   -webkit-transition: -webkit-transform 1s;
 }
@@ -285,6 +285,13 @@ Logo in word */
   border-radius: 90%;
 }
 
+.dev {
+  position: absolute;
+  right: 31rem;
+  top: 39rem;
+  width: 8rem;
+
+}
 /* End of Rotate Image 1 */
 
 /* Main Logo */
@@ -916,7 +923,13 @@ border-right: 1px solid silver;
   top: 92rem;
   right: 5rem;
   cursor: pointer;
+}
 
+.logomm img {
+  position: absolute;
+  top: 60.5rem;
+  left: 47rem;
+  width: 8rem;
 }
 /*
 
