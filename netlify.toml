@@ -1,0 +1,53 @@
+[functions]
+
+  [functions.emails]
+  included_files = [
+    "./emails/**",
+    "./emails/**",
+    "./emails/**",
+    "./emails/**",
+    "./emails/**",
+    "./emails/**",
+    "./emails/**",
+    "./emails/**",
+    "./emails/**"
+  ]
+
+[build]
+publish = "."
+
+[context]
+
+  [context.production]
+
+    [context.production.functions]
+
+      [context.production.functions.emails]
+      included_files = [
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**"
+      ]
+
+  [context.main]
+
+    [context.main.functions]
+
+      [context.main.functions.emails]
+      included_files = [
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**",
+        "./emails/**"
+      ]
