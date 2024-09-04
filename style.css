@@ -1013,15 +1013,11 @@ border-right: 1px solid silver;
 
 @media (max-width: 1350px) {
 
-  .heading-author {
-    position: relative;
-    margin-left: 20rem;
 
   }
-  }
 
 
-@media (max-width: 1150px) {
+@media (max-width: 1024px) {
   html {
     font-size: 55%;
   }
@@ -1035,23 +1031,28 @@ border-right: 1px solid silver;
 }
 
 .definition {
-  margin-left: 20rem;
+  margin-left: 30rem;
   position: absolute;
+
 }
 
 .heading-author {
-  margin-left: 20rem;
   position: absolute;
+  margin-left: 30rem;
+  
 }
 
 }
 
 @media (max-width: 900px) {
 
-  .heading-author {
-    position: absolute;
-    margin-left: 20rem;
+  .heading-author {                                                                           
+    margin-left: 10rem;
   }
+
+.definition {
+  margin-left: 10rem;
+}
 
 }
 
@@ -1061,18 +1062,49 @@ border-right: 1px solid silver;
     font-size: 50%;
 
   }
+
+  .heading-author {
+    margin-left: 10rem;
+  }
+
+  .definition {
+    margin-left: 10rem;
+    
+  }
 }
 
 @media (max-width: 550px) {
   html {
     font-size: 40%;
   }
+
+.heading-author {
+  position: absolute;
+  margin-left: 5rem;
+}
+
+.definition {
+  position: absolute;
+  margin-left: 5rem;
+}
+
 }
 
 @media (max-width: 400px) {
   html {
     font-size: 35%;
   }
+
+  .heading-author {
+    font-size: 15px;
+    margin-left: 5rem;
+  }
+
+ .definition {
+  
+  margin-left: 5rem;
+  font-size: 10px;
+ }
 }
 
 
