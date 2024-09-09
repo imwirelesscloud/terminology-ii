@@ -1,20 +1,13 @@
 {
-  "name": "terminology-ii",
-  "description": "Believe in God!",
-  "version": "1.0.0",
-  "main": "script.js",
+  "name": "vue-cli-template-pwa",
+  "version": "2.1.0",
+  "license": "MIT",
+  "description": "A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "cd docs && gitbook serve",
+    "docs:deploy": "bash ./deploy-docs.sh"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@testing-library/jest-dom": "^6.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.1",
-    "web-vitals": "^4.2.3"
-  },
-  "devDependencies": {}
+  "devDependencies": {
+    "vue-cli": "^2.8.1"
+  }
 }
