@@ -897,9 +897,9 @@ border-right: 1px solid silver;
 
 .im-wireless-logo {
   position: absolute;
-  right: 20rem;
-  top: 42rem;
-  width: 10rem; 
+  right: 48.5rem;
+  top: 61rem;
+  width: 5rem; 
   cursor: pointer;
 
 }
@@ -927,9 +927,9 @@ border-right: 1px solid silver;
 
 .logomm img {
   position: absolute;
-  top: 60.5rem;
-  left: 47rem;
-  width: 8rem;
+  top: 62rem;
+  left: 49rem;
+  width: 5rem;
 }
 /*
 
@@ -1042,6 +1042,12 @@ border-right: 1px solid silver;
   
 }
 
+.im-wireless-logo {
+  position: absolute;
+  margin-right: 20rem;
+
+}
+
 }
 
 @media (max-width: 900px) {
@@ -1053,6 +1059,7 @@ border-right: 1px solid silver;
 .definition {
   margin-left: 10rem;
 }
+
 
 }
 
